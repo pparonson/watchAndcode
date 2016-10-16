@@ -1,0 +1,50 @@
+// V1 REQUIREMENTS: It should have a place to store todos
+// V1 REQUIREMENTS: It should have a way to display todos (console)
+// V1 REQUIREMENTS: It should have a way to add new todos
+// V1 REQUIREMENTS: It should have a way to change a todo
+// V1 REQUIREMENTS: It should have a way to delete a todo
+
+// V2 REQUIREMENTS: It should have a function to display todos
+// V2 REQUIREMENTS: It should have a function to add todos
+// V2 REQUIREMENTS: It should have a function to change todos
+// V2 REQUIREMENTS: It should have a function to delete todos
+
+// V3 REQUIREMENTS: It should store the todos array  on an obj
+// V3 REQUIREMENTS: It should have a displayTodos method
+// V3 REQUIREMENTS: It should have an addTodo method
+// V3 REQUIREMENTS: It should have a changeTodo method
+// V3 REQUIREMENTS: It should have a deleteTodo method
+
+// V4 REQUIREMENTS: todoList.addTodo should add objects
+// V4 REQUIREMENTS:  todoList.changeTodo should change the todoText property
+// V4 REQUIREMENTS: todoList.toggleCompleted should change the completed property
+
+// V5 REQUIREMENTS: .displayTodos should show todoText
+// V5 REQUIREMENTS: .displayTodos should show .completed is empty
+
+// V6 REQUIREMENTS: Case 1: .toggleAll: If everything is true; Make everything false
+// V6 REQUIREMENTS: Case 2: .toggleAll: Otherwise, make everything true
+
+// V7 REQUIREMENTS: There should be a "Display Todos" button
+// V7 REQUIREMENTS: There should be a "Toggle All" button
+// V7 REQUIREMENTS: clicking "Display Todos" should run .displayTodos()
+// V7 REQUIREMENTS: clicking "Toggle All" should run .toggleAll();
+// V7 REQUIREMENTS: clicking "Display Todos" should run .displayTodos()
+
+// V8 REQUIREMENTS: There should be a button for todoList.addTodo();
+// V8 REQUIREMENTS: There should be a button for todoList.changeTodo();
+// V8 REQUIREMENTS: There should be a button for todoList.deleteTodo();
+// V8 REQUIREMENTS: There should be a button for todoList.toggleCompleted();
+
+// V9 REQUIREMENTS: There should be an li tag element for every todo item
+// V9 REQUIREMENTS: Each li tag element should show .completed
+// V9 REQUIREMENTS: Each li tag element should contain .todoText
+// V9 REQUIREMENTS: Each li tag element should show .completed
+
+// V10 REQUIREMENTS: Each li tag element should have an attribute id that has the array position
+// V10 REQUIREMENTS: There should be a delete button for each todo
+// V10 REQUIREMENTS: There should be a way to create delete buttons
+// V10 REQUIREMENTS: Delete buttons should have access to to the todo attribute id
+
+// V11 REQUIREMENTS: todoList.toggleAll should use forEach
+// V11 REQUIREMENTS: view.displayTodos should use forEach

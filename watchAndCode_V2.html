@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Watch and Code V2</title>
+<!--
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js">
+</script>
+-->
+</head>
+<body>
+  <h1>Todo List (Vanilla JavaScript)</h1>
+  <div>
+    <!--
+    <button onclick="handlers.displayTodos()">Display</button>
+    -->
+    <button onclick="handlers.toggleAll()">Toggle All</button>
+  </div>
+  <div>
+    <button onclick="handlers.toggleCompleted()">Toggle</button>
+    <input id="toggleCompletedPositionInput" type="number">
+  </div>
+  <div>
+    <button onclick="handlers.addTodo()">Add</button>
+    <input id="addTodoTextInput" type="text">
+  </div>
+  <div>
+    <button onclick="handlers.editTodo()">Edit</button>
+    <input id="editTodoPositionInput" type="number">
+    <input id="editTodoTextInput" type="text">
+  </div>
+  <!--
+  <div>
+    <button onclick="handlers.deleteTodo()">Delete</button>
+    <input id="deleteTodoPositionInput" type="number">
+  </div>
+  -->
+  <ul>
+
+  </ul>
+
+  <script src="./js/watchAndCode_v2.js"></script>
+</body>
+</html>
